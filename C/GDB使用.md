@@ -64,6 +64,10 @@
 
   取消监视
 
+- `set follow-fork-mode child/parent`
+
+  设置跟踪父进程还是子进程，必须在fork函数调用前设置。
+
 ## 调试需要输入参数的程序
 
 * `gdb --args 程序 参数1 参数2 ...`
