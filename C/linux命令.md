@@ -4,19 +4,21 @@
 
 ## ls
 
-ls -lh
+`ls -lh`
 
 ## netstat
 
-netstat -tunlp
+`netstat -tunlp`
+
+`netstat -i` 查看网卡发送包、接收包、丢包信息
 
 ## grep
 
-grep "xxx" file1 > file2
+`grep "xxx" file1 > file2`
 
 ## ps
 
-ps -ef
+`ps -ef`
 
 ## unzip
 
@@ -34,8 +36,16 @@ ps -ef
 
 ## df
 
-df -lhT
+`df -lhT`
 
 ## fdisk
 
-fdisk -l
+`fdisk -l`
+
+## parted
+
+`parted -l`
+
+## dstat
+
+`dstat -lcdnrm`
