@@ -118,7 +118,7 @@
 
 1. `disassemble`显示源码对应的汇编指令
 
-   `disassemble`显示当前所在栈帧源码对应汇编指令，`disassemble 函数名`显示指定函数源码对应的汇编指令
+   `disassemble`显示当前所在栈帧源码对应汇编指令，`disassemble 函数名`显示指定函数源码对应的汇编指令，不包含源码，`disassemble/s 函数名`显示指定函数源码对应的汇编指令，包含源码
 
 2. `set disassemble-next-line on/off`设置是否显示当前执行的行所对应的汇编指令。` show disassemble-next-line`显示disassemble-next-line的设置
 
