@@ -106,6 +106,18 @@
 
   常用：`x/16cb`、`x/64dw`
 
+- `set print pretty on/off`
+
+  开启/关闭每行只会显示结构体的一名成员，并且根据成员的定义层次进行缩进
+
+- `set scheduler-locking on/off`
+
+  调试一个线程时，让其它线程暂停执行，off为关闭此功能
+
+- `set print elements 0`
+
+  设置gdb打印数组或字符串中元素的个数，0为打印整个数组或字符串。`show print elements `用于查看设置的值。
+
   
 
 ## 调试需要输入参数的程序
